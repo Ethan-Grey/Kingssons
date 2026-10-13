@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en-NZ" class="t-neutral">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kingssons | Family-owned property services in New Zealand</title>
+<meta name="description" content="Kingssons is a family-owned property services business in New Zealand: car detailing, lawn mowing, gardening, green waste and rubbish removal, end-of-tenancy cleaning and water blasting.">
+<meta property="og:title" content="Kingssons | Your Property. Our Pride.">
+<meta property="og:description" content="One family-owned business for your vehicle, home, garden and property. Request a free quote.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#0a0a0a">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230a0a0a'/%3E%3Cpath d='M18 14h9v16l14-16h11L37 31l16 19H41L27 33v17h-9z' fill='%23fff'/%3E%3Crect x='44' y='44' width='10' height='6' fill='%231f6bff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+@property --a{syntax:'<color>';inherits:true;initial-value:#9aa3ad}
+@property --a-on{syntax:'<color>';inherits:true;initial-value:#0a0a0a}
+@property --a-lit{syntax:'<color>';inherits:true;initial-value:#c2c8cf}
+@property --a-deep{syntax:'<color>';inherits:true;initial-value:#4a525b}
+:root{--ink:#0a0a0a;--char:#17181a;--graph:#232528;--paper:#f3f4f4;--mist:#e2e5e6;--white:#fff;
+--display:'Archivo','Arial Black',system-ui,sans-serif;--body:'Instrument Sans',system-ui,-apple-system,'Segoe UI',sans-serif;
+--ease:cubic-bezier(.2,.7,.2,1)}
+html,.card,.hero{transition:--a .7s var(--ease),--a-on .7s,--a-lit .7s var(--ease),--a-deep .7s var(--ease)}
+.t-neutral,.t-tenancy-x{--a:#9aa3ad;--a-on:#0a0a0a;--a-lit:#c2c8cf;--a-deep:#454d56}
+.t-water{--a:#1f6bff;--a-on:#fff;--a-lit:#5a9bff;--a-deep:#1451c4}
+.t-garden{--a:#2fa84f;--a-on:#0a0a0a;--a-lit:#4cd070;--a-deep:#1b7a36}
+.t-lawn{--a:#8bd22f;--a-on:#0a0a0a;--a-lit:#a5e84e;--a-deep:#4b7a0c}
+.t-car{--a:#d8281f;--a-on:#fff;--a-lit:#ff5148;--a-deep:#b81d16}
+.t-tenancy{--a:#12a0ae;--a-on:#0a0a0a;--a-lit:#3ccddb;--a-deep:#0b747f}
+.t-rubbish{--a:#ff7a1a;--a-on:#0a0a0a;--a-lit:#ff9440;--a-deep:#b84f00}
+.t-waste{--a:#2e8b57;--a-on:#0a0a0a;--a-lit:#5cc48a;--a-deep:#1f6b41}
+.on-dark{--fg:#fff;--muted:#b7bbc0;--bg:var(--ink);--kings:#fff;--sons:var(--a-lit);--link:var(--a-lit);--line:rgba(255,255,255,.16)}
+.on-light{--fg:#0a0a0a;--muted:#474c52;--bg:var(--paper);--kings:#0a0a0a;--sons:var(--a-deep);--link:var(--a-deep);--line:rgba(10,10,10,.16)}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;scroll-padding-top:90px}
+body{margin:0;font:400 17px/1.6 var(--body);color:#0a0a0a;background:var(--ink);-webkit-font-smoothing:antialiased;
+padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);overflow-x:hidden}
+img,svg{max-width:100%;display:block}
+h1,h2,h3{font-family:var(--display);font-stretch:112%;font-weight:800;line-height:1.02;letter-spacing:-.02em;margin:0 0 .5em}
+h1{font-size:clamp(2.5rem,7vw,5.4rem)}h2{font-size:clamp(1.9rem,4.4vw,3.2rem)}h3{font-size:1.25rem;line-height:1.2;letter-spacing:-.01em}
+p{margin:0 0 1em}a{color:var(--link)}
+:focus-visible{outline:3px solid var(--a-lit);outline-offset:3px;border-radius:4px}
+.on-light :focus-visible{outline-color:var(--a-deep)}
+.skip{position:absolute;left:12px;top:-60px;background:#fff;color:#000;padding:10px 16px;z-index:100;border-radius:6px}.skip:focus{top:12px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 clamp(20px,4vw,40px)}
+.sec{padding:clamp(64px,9vw,120px) 0;background:var(--bg);color:var(--fg)}
+.sec.on-dark{background:var(--ink)}.sec.char{background:var(--char)}
+.sec.on-light{background:var(--paper)}.sec.white{background:#fff}
+.lead{font-size:1.2rem;max-width:60ch;color:var(--muted)}
+.muted{color:var(--muted)}
+/* wordmark */
+.wm{font-family:var(--display);font-stretch:125%;font-weight:900;letter-spacing:-.035em;line-height:.9;text-transform:uppercase;display:inline-flex;text-decoration:none}
+.wm b{color:var(--kings);font-weight:900}.wm i{color:var(--sons);font-style:normal;transition:color .7s var(--ease)}
+/* buttons */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:.5em;min-height:48px;padding:.75em 1.5em;border-radius:999px;border:2px solid transparent;font:700 1rem var(--body);text-decoration:none;cursor:pointer;background:var(--a);color:var(--a-on);transition:transform .2s,filter .2s,background-color .7s}
+.btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.btn.ghost{background:transparent;color:var(--fg);border-color:var(--line)}
+.btn.ghost:hover{border-color:var(--fg)}
+.btn.sm{min-height:40px;padding:.45em 1.1em;font-size:.95rem}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:center}
+/* header */
+.hdr{position:sticky;top:0;z-index:50;background:var(--bg);color:var(--fg);border-bottom:1px solid var(--line);padding-top:env(safe-area-inset-top,0px)}
+.hdr .wrap{display:flex;align-items:center;gap:24px;height:72px}
+.hdr .wm{font-size:1.65rem}
+.nav{display:flex;align-items:center;gap:2px;margin-left:auto}
+.nav a,.nav button.nl{color:var(--fg);text-decoration:none;font:600 .95rem var(--body);padding:10px 12px;border-radius:8px;background:none;border:0;cursor:pointer}
+.nav a:hover,.nav button.nl:hover{background:var(--line)}
+.nav a[aria-current=page]{box-shadow:inset 0 -3px 0 var(--a)}
+.ddw{position:relative}
+.dd{position:absolute;top:100%;left:-120px;width:min(560px,90vw);background:var(--ink);color:#fff;border:1px solid rgba(255,255,255,.14);border-radius:20px;padding:12px;display:grid;grid-template-columns:1fr 1fr;gap:2px;box-shadow:0 30px 60px rgba(0,0,0,.35)}
+.dd[hidden]{display:none}
+.dd a{display:flex;gap:10px;align-items:center;color:#fff}
+.dot{width:12px;height:12px;border-radius:50%;background:var(--a);flex:none}
+.burger{display:none;margin-left:auto;width:48px;height:48px;border-radius:12px;border:1px solid var(--line);background:none;color:var(--fg);cursor:pointer}
+.hdr .quote-btn{margin-left:8px}
+.drawer{position:fixed;inset:0;z-index:80;background:var(--ink);color:#fff;padding:calc(16px + env(safe-area-inset-top,0px)) 20px calc(20px + env(safe-area-inset-bottom,0px));display:flex;flex-direction:column;gap:6px;overflow:auto;transform:translateX(100%);transition:transform .35s var(--ease);visibility:hidden}
+.drawer.open{transform:none;visibility:visible}
+.drawer .top{display:flex;justify-content:space-between;align-items:center;margin-bottom:12px}
+.drawer a.dl{color:#fff;text-decoration:none;font:700 1.3rem var(--display);font-stretch:110%;padding:12px 4px;border-bottom:1px solid rgba(255,255,255,.12);display:flex;gap:12px;align-items:center}
+.drawer a.dl.s{font:600 1.05rem var(--body);padding:11px 4px 11px 20px}
+.drawer .btn{margin-top:auto;position:sticky;bottom:0}
+@media(max-width:1060px){.nav,.hdr .quote-btn{display:none}.burger{display:grid;place-items:center}}
+/* hero */
+.hero{background:var(--bg);color:var(--fg);position:relative;overflow:hidden;isolation:isolate}
+.hero::before{content:"";position:absolute;inset:0;z-index:-1;background:radial-gradient(900px 500px at 85% 20%,color-mix(in srgb,var(--a) 34%,transparent),transparent 70%),radial-gradient(600px 400px at 0% 100%,color-mix(in srgb,var(--a) 14%,transparent),transparent 70%)}
+.on-light.hero::before{background:radial-gradient(900px 500px at 85% 20%,color-mix(in srgb,var(--a) 22%,transparent),transparent 70%)}
+.hero .wrap{display:grid;grid-template-columns:1.05fr .95fr;gap:clamp(24px,5vw,64px);align-items:center;padding-top:clamp(40px,7vw,96px);padding-bottom:clamp(48px,7vw,96px)}
+.hero h1{margin-bottom:.35em}
+.mega{font-size:clamp(3rem,11.5vw,9.4rem);margin-bottom:.12em;display:flex}
+.mega.wm{display:flex}
+.art{position:relative;aspect-ratio:4/3.4;border-radius:32px 32px 32px 6px;overflow:hidden;background:#000;box-shadow:0 40px 80px -30px rgba(0,0,0,.6)}
+.art svg{position:absolute;inset:0;width:100%;height:100%}
+.art .layer{opacity:0;transition:opacity .8s}.art .layer.on{opacity:1}
+.ph{position:absolute;left:12px;bottom:12px;background:rgba(0,0,0,.72);color:#fff;font:600 .72rem var(--body);padding:5px 10px;border-radius:99px;z-index:3}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 0;padding:0;list-style:none}
+.chips li,.chip{border:1px solid var(--line);border-radius:99px;padding:6px 14px;font-size:.92rem;background:transparent;color:var(--fg)}
+.cyc{display:flex;gap:12px;align-items:center;margin-top:28px;font-size:.92rem;color:var(--muted)}
+.cyc button{background:none;border:1px solid var(--line);color:var(--fg);border-radius:99px;padding:6px 14px;cursor:pointer;font:600 .85rem var(--body)}
+@media(max-width:860px){.hero .wrap{grid-template-columns:1fr}.art{order:-1;aspect-ratio:16/11}}
+/* switcher */
+.switch{background:var(--char);border-top:1px solid rgba(255,255,255,.08);overflow-x:auto}
+.switch .wrap{display:flex;gap:8px;padding-top:14px;padding-bottom:14px;width:max-content;min-width:100%}
+.switch a{display:inline-flex;gap:8px;align-items:center;color:#fff;text-decoration:none;padding:8px 16px;border-radius:99px;border:1px solid rgba(255,255,255,.16);font:600 .92rem var(--body);white-space:nowrap}
+.switch a[aria-current=page]{background:#fff;color:#000}
+/* bento */
+.bento{display:grid;grid-template-columns:repeat(12,1fr);gap:16px}
+.card{position:relative;overflow:hidden;border-radius:26px;min-height:340px;color:#fff;background:#000;display:flex;flex-direction:column;justify-content:flex-end;padding:26px;isolation:isolate}
+.card:nth-child(even){border-radius:26px 26px 6px 26px}
+.card svg.bg{position:absolute;inset:0;width:100%;height:100%;z-index:-2;transition:transform .6s var(--ease)}
+.card:hover svg.bg{transform:scale(1.04)}
+.card::after{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(to top,rgba(0,0,0,.92) 8%,rgba(0,0,0,.35) 60%,rgba(0,0,0,0))}
+.card h3{font-size:1.6rem;margin:.5em 0 .3em}
+.card p{color:#d5d8dc;margin-bottom:.9em;max-width:46ch}
+.card .ic{width:44px;height:44px;border-radius:12px;background:var(--a);color:var(--a-on);display:grid;place-items:center}
+.card .links{display:flex;gap:16px;flex-wrap:wrap;font-weight:700}
+.card .links a{color:var(--a-lit)}
+.span7{grid-column:span 7}.span5{grid-column:span 5}.span4{grid-column:span 4}.span6{grid-column:span 6}.span12{grid-column:span 12}
+.card.wide{min-height:200px}
+@media(max-width:900px){.bento>*{grid-column:span 12!important}.card{min-height:300px}}
+/* generic blocks */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,72px);align-items:start}
+@media(max-width:860px){.split{grid-template-columns:1fr}}
+.offers{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:0 40px}
+.offers li{padding:22px 0 22px 22px;border-top:1px solid var(--line);border-left:4px solid var(--a);margin-top:-1px;margin-bottom:18px;border-top:0}
+.offers h3{margin-bottom:.25em}.offers p{margin:0;color:var(--muted)}
+@media(max-width:760px){.offers{grid-template-columns:1fr}}
+.panel{border-radius:24px;padding:clamp(22px,3vw,36px);background:var(--char);color:#fff;border-left:6px solid var(--a)}
+.on-light .panel,.panel.lt{background:#fff;color:#0a0a0a;border:1px solid var(--mist);border-left:6px solid var(--a)}
+.panel h3{margin-bottom:.4em}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:0;counter-reset:s;list-style:none;margin:40px 0 0;padding:0}
+.steps li{counter-increment:s;padding:8px 28px 8px 0;position:relative}
+.steps li::before{content:counter(s);display:block;font:900 5rem/1 var(--display);font-stretch:125%;color:var(--a-deep);margin-bottom:8px}
+@media(max-width:760px){.steps{grid-template-columns:1fr}}
+.values{display:grid;grid-template-columns:repeat(2,1fr);gap:28px 40px;margin-top:8px}
+.values div{border-top:3px solid var(--fg);padding-top:14px}
+.values h3{margin-bottom:.2em}.values p{color:var(--muted);margin:0}
+@media(max-width:600px){.values{grid-template-columns:1fr}}
+details{border-top:1px solid var(--line)}details:last-of-type{border-bottom:1px solid var(--line)}
+summary{cursor:pointer;font:700 1.1rem var(--body);padding:20px 40px 20px 0;list-style:none;position:relative}
+summary::-webkit-details-marker{display:none}
+summary::after{content:"+";position:absolute;right:6px;top:14px;font-size:1.6rem;color:var(--link);transition:transform .25s}
+details[open] summary::after{transform:rotate(45deg)}
+details p{color:var(--muted);max-width:68ch}
+/* before/after */
+.ba{position:relative;aspect-ratio:16/10;border-radius:26px 26px 26px 6px;overflow:hidden;background:#000;--p:50}
+.ba .l{position:absolute;inset:0}.ba .l svg{width:100%;height:100%}
+.ba .b svg{filter:grayscale(1) brightness(.55) contrast(.9)}
+.ba .af{clip-path:inset(0 0 0 calc(var(--p)*1%))}
+.ba input{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:ew-resize;margin:0;z-index:4}
+.ba .hd{position:absolute;top:0;bottom:0;left:calc(var(--p)*1%);width:3px;background:#fff;z-index:3;pointer-events:none}
+.ba .hd::after{content:"\2194";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:44px;height:44px;border-radius:50%;background:var(--a);color:var(--a-on);display:grid;place-items:center;font-size:1.2rem}
+.ba input:focus-visible~.hd::after{outline:3px solid #fff;outline-offset:2px}
+.ba .tag{position:absolute;top:14px;z-index:3;background:rgba(0,0,0,.7);color:#fff;font:700 .78rem var(--body);padding:4px 12px;border-radius:99px}
+.ba .tag.a{right:14px}.ba .tag.b{left:14px}
+/* gallery */
+.gal{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:14px}
+.gal figure{margin:0;position:relative;aspect-ratio:4/3;border-radius:20px;overflow:hidden;background:#000}
+.gal figure svg,.gal figure img{width:100%;height:100%;object-fit:cover}
+.gal figcaption{position:absolute;right:12px;bottom:12px;z-index:3;background:rgba(0,0,0,.72);color:#fff;font:600 .78rem var(--body);padding:4px 10px;border-radius:99px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 24px}
+.filters button{cursor:pointer;font:600 .92rem var(--body);padding:8px 16px;border-radius:99px;border:1px solid var(--line);background:none;color:var(--fg)}
+.filters button[aria-pressed=true]{background:var(--fg);color:var(--bg)}
+/* forms */
+.formbox{background:#fff;color:#0a0a0a;border-radius:28px 28px 28px 6px;padding:clamp(22px,3.5vw,40px);box-shadow:0 30px 60px -30px rgba(0,0,0,.5);border-top:8px solid var(--a)}
+.formbox h2{font-size:clamp(1.7rem,3.5vw,2.4rem)}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}
+@media(max-width:620px){.grid2{grid-template-columns:1fr}}
+.fld{margin-bottom:18px}.fld.full{grid-column:1/-1}
+.fld label,.fld legend{display:block;font:700 .95rem var(--body);margin-bottom:6px;padding:0}
+.fld .hint{font-size:.85rem;color:#4b5057;margin:-2px 0 6px}
+.fld input:not([type=checkbox]):not([type=radio]),.fld select,.fld textarea{width:100%;font:400 1rem var(--body);padding:12px 14px;border:2px solid #b9bec3;border-radius:12px;background:#fff;color:#0a0a0a;min-height:48px}
+.fld textarea{min-height:110px;resize:vertical}
+.fld input:focus,.fld select:focus,.fld textarea:focus{outline:3px solid var(--a-deep);outline-offset:1px;border-color:var(--a-deep)}
+.fld fieldset{border:0;margin:0;padding:0}
+.checks{display:flex;flex-wrap:wrap;gap:8px 18px}
+.checks label{display:flex;gap:8px;align-items:center;font:500 .95rem var(--body);margin:0;min-height:36px}
+.checks input{width:20px;height:20px;accent-color:var(--a-deep)}
+.err{color:#b00020;font:600 .88rem var(--body);margin:6px 0 0}
+.fld.bad input,.fld.bad select,.fld.bad textarea{border-color:#b00020}
+.hp{position:absolute;left:-9999px;height:0;overflow:hidden}
+.status{border-radius:16px;padding:16px 18px;margin-top:18px;background:#eef1f2;border:1px solid #c9cfd3;font-size:.95rem}
+.status.error{background:#fdecee;border-color:#e6a1ab;color:#7a0016}
+.status.ok{background:#e8f6ec;border-color:#9bd1ac;color:#0c4a1f}
+.status pre{white-space:pre-wrap;background:#fff;border:1px solid #d3d8db;border-radius:10px;padding:12px;font:400 .85rem/1.5 var(--body);max-height:220px;overflow:auto;margin:10px 0}
+.small{font-size:.88rem;color:var(--muted)}
+.contact-list{list-style:none;padding:0;margin:0 0 20px}.contact-list li{padding:12px 0;border-top:1px solid var(--line)}
+.contact-list b{display:block;font-size:.85rem;color:var(--muted);font-weight:600}
+.subhero{padding:clamp(48px,7vw,96px) 0 clamp(32px,5vw,56px);background:var(--bg);color:var(--fg)}
+.subhero h1{font-size:clamp(2.2rem,6vw,4.4rem)}
+.draft{border:1px dashed var(--line);border-radius:12px;padding:10px 14px;font-size:.9rem;color:var(--muted);margin-bottom:28px}
+.prose h2{font-size:1.5rem;margin-top:1.6em}.prose{max-width:70ch}
+/* footer */
+footer{background:var(--ink);color:#fff;padding:64px 0 40px;border-top:1px solid #222}
+footer .cols{display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:36px}
+footer .wm{font-size:2rem;margin-bottom:14px}
+footer h3{font:700 .95rem var(--body);color:#b7bbc0;margin-bottom:.8em;letter-spacing:0}
+footer ul{list-style:none;margin:0;padding:0}footer li{margin:.45em 0}
+footer a{color:#fff;text-decoration:none}footer a:hover{text-decoration:underline}
+footer p{color:#b7bbc0}
+footer .legal{margin-top:40px;padding-top:20px;border-top:1px solid #2a2c2f;display:flex;flex-wrap:wrap;gap:12px 24px;justify-content:space-between;font-size:.9rem;color:#b7bbc0}
+@media(max-width:860px){footer .cols{grid-template-columns:1fr 1fr}}@media(max-width:520px){footer .cols{grid-template-columns:1fr}}
+main{display:block;outline:none}
+main.in{animation:fi .45s var(--ease)}
+@keyframes fi{from{opacity:.0}to{opacity:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="hdr on-dark" id="hdr"></header>
+<div class="drawer" id="drawer" aria-hidden="true" role="dialog" aria-label="Menu"></div>
+<main id="main" tabindex="-1"></main>
+<footer id="ftr" class="on-dark"></footer>
+
+<script>
+/* ============================================================
+   CONFIG — edit this block. Nothing here is invented: anything
+   left empty is simply not shown on the site.
+   ============================================================ */
+const CONFIG = {
+  phone: '',            // e.g. '021 000 0000'  → enables click-to-call
+  email: '',            // e.g. 'hello@yourdomain.co.nz' → enquiries open pre-filled in the visitor's email app
+  formEndpoint: '',     // Optional. HTTPS URL of your form handler (JSON POST). Success is shown ONLY if it returns 2xx.
+  hours: '',            // e.g. 'Mon–Fri 8am–5pm'
+  address: '',          // Optional base location / suburb
+  areas: [],            // e.g. ['North Shore','Auckland Central'] — only list confirmed areas
+  social: { facebook:'', instagram:'', tiktok:'', youtube:'' },
+  registration: '',     // e.g. NZBN — shown in footer when set
+  gallery: [],          // [{service:'water-blasting', src:'data:image/jpeg;base64,…', alt:'Driveway after water blasting', before:'data:…' (optional)}]
+  pricing: {}           // e.g. {'lawn-mowing':[{name:'Standard lawn',type:'from',price:'$60',note:'Up to 300 m²'}]}  type: 'fixed' | 'from' | 'custom'
+};
+/* ============================================================ */
+
+const IC = {
+ droplet:'M12 3s6 6.5 6 11a6 6 0 0 1-12 0c0-4.5 6-11 6-11z',
+ leaf:'M5 19c0-9 5-14 14-14 0 9-5 14-14 14zM5 19l7-7',
+ sprout:'M12 21v-8M12 13c0-4-3-6-7-6 0 4 3 6 7 6zM12 11c0-3 2.5-5 6-5 0 3.5-2.5 5-6 5z',
+ lawn:'M3 20h18M5 20V10M9 20V5M13 20v-9M17 20V7',
+ car:'M4 16v-3l2-5h12l2 5v3M4 16h16M4 16v2h3v-2M17 16v2h3v-2M7 12h10',
+ trash:'M5 7h14M9 7V4h6v3M7 7l1 13h8l1-13M10 11v6M14 11v6',
+ sparkle:'M12 3l2 6 6 2-6 2-2 6-2-6-6-2 6-2zM19 3v4M17 5h4',
+ plus:'M12 5v14M5 12h14'
+};
+const icon=(n,s=22)=>`<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="${IC[n]}"/></svg>`;
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+
+const COMMON_FAQ=[
+ ['How do I get a price?','Send a quote request with a few details about the job. Photos help, and we can quote more accurately when we can see the surface, lawn, vehicle or load. Pricing depends on the size and condition of the job.'],
+ ['Can I send photos?','Yes. When your quote request opens in your email app, attach your photos before sending. Clear photos of the whole area plus any problem spots work best.'],
+ ['Which areas do you cover?','Tell us your suburb in the quote request and we will confirm whether we can get to you. Our service area page lists confirmed areas as they are added.'],
+ ['Do you guarantee the result?','We take pride in every job, but we do not make blanket promises about results that depend on the condition of a surface, a property or a third-party inspection. We will talk through realistic expectations when we quote.']
+];
+
+const SERVICES=[
+{slug:'car-detailing',name:'Car Detailing',theme:'t-car',tone:'dark',icon:'car',scene:'car',
+ short:'Exterior, interior and full detailing that brings the shine back.',
+ head:'Bring Back the Showroom Shine.',
+ intro:'Kingssons detailing covers the outside, the inside, or the whole vehicle. Tell us what you drive and what condition it is in, and we will quote the job.',
+ meta:'Car detailing from Kingssons, a family-owned New Zealand property and vehicle services business. Exterior, interior and full detailing. Request a quote.',
+ offers:[['Exterior detailing','A thorough exterior clean to lift dirt and bring up the finish.'],['Interior detailing','Seats, carpets, dash and trims cleaned inside and out of sight.'],['Full vehicle detailing','Inside and out in one booking.'],['Interior vacuuming and cleaning','Vacuuming and wipe-down of the cabin and boot.'],['Wheel and tyre cleaning','Wheels, arches and tyres cleaned and finished.'],['Paintwork cleaning and finishing','Paint cleaned and finished for a glossy look.']],
+ noteT:'What we do not list',noteB:'We only advertise services we have confirmed. If you are after something more specialised, ask first and we will tell you straight whether we offer it.',
+ pricing:'Detailing packages and vehicle-size pricing can be set per vehicle type. Until then, every job is quoted individually.',
+ faq:[['Do you do mobile detailing?','Mention your address in the quote request and we will confirm how the job can be done at your location.'],['How long does a detail take?','It depends on vehicle size, condition and the package. We will give you a time estimate with the quote.']],
+ related:['water-blasting','rubbish-removal'],
+ fields:[
+  {n:'vehicle',l:'Vehicle make and model',t:'text',req:1},
+  {n:'size',l:'Vehicle size',t:'select',o:['Small / hatchback','Sedan / wagon','SUV','Van / ute / large vehicle','Not sure']},
+  {n:'package',l:'Detailing package',t:'select',o:['Exterior detail','Interior detail','Full detail (inside and out)','Wheels and tyres only','Not sure, please advise']},
+  {n:'condition',l:'Current condition',t:'select',o:['Lightly dirty','Moderately dirty','Heavily soiled','Not sure']}]},
+{slug:'lawn-mowing',name:'Lawn Mowing',theme:'t-lawn',tone:'dark',icon:'lawn',scene:'lawn',
+ short:'Sharp, even lawns, one-off or on a regular schedule.',
+ head:'A Better-Looking Lawn Starts Here.',
+ intro:'From a single tidy-up to regular visits, we cut, edge and finish lawns so they look cared for. Overgrown section? Send us a photo and we will tell you what is involved.',
+ meta:'Lawn mowing from Kingssons, a family-owned New Zealand business. One-off mowing, regular lawn maintenance and overgrown lawns. Request a quote.',
+ offers:[['One-off mowing','A single visit when you need the lawn sorted.'],['Regular lawn maintenance','Repeat visits so the lawn stays under control.'],['Overgrown lawns','Long grass cut back to a manageable, tidy lawn.'],['Edge trimming','Clean edges along paths, driveways and garden beds.'],['Lawn tidy-ups','A final pass to leave the whole area neat.'],['Green waste removal','Clippings taken away if you want them gone.']],
+ noteT:'One-off or recurring?',noteB:'A one-off visit suits an occasional tidy-up or an overgrown lawn. Recurring visits suit keeping a lawn in shape through the growing season. Tell us which you prefer in the quote request and we will explain how each works.',
+ pricing:'Lawn pricing depends on lawn size, grass height and how often you want us to visit.',
+ faq:[['What if my lawn is very long?','Overgrown lawns often need more time than a routine mow. Tell us the grass height and attach a photo and we will quote accordingly.'],['Do you take the clippings?','Green waste removal is available on request. Let us know in the form.']],
+ related:['gardening','green-waste-removal'],
+ fields:[
+  {n:'lawn',l:'Approximate lawn size',t:'select',o:['Small (courtyard / small front lawn)','Medium','Large','Very large / lifestyle block','Not sure']},
+  {n:'grass',l:'Grass height',t:'select',o:['Recently mowed','Getting long','Very long / overgrown','Not sure']},
+  {n:'freq',l:'Preferred service',t:'select',o:['One-off mow','Regular (weekly)','Regular (fortnightly)','Regular (monthly)','Not sure']},
+  {n:'extras',l:'Extras',t:'checks',o:['Edge trimming','Lawn tidy-up','Green waste removal'],full:1}]},
+{slug:'gardening',name:'Gardening & Garden Maintenance',theme:'t-garden',tone:'dark',icon:'sprout',scene:'garden',
+ short:'Weeding, hedges, planting and tidy-ups for gardens that feel looked after.',
+ head:'Bring Your Outdoor Space Back to Life.',
+ intro:'Whether the garden needs a one-off tidy or regular attention, Kingssons keeps beds, hedges and borders neat. Lawn mowing and green waste removal are available alongside.',
+ meta:'Gardening and garden maintenance from Kingssons, a family-owned New Zealand business. Weeding, hedge trimming, planting and tidy-ups. Request a quote.',
+ offers:[['Garden maintenance','Regular care to keep the whole garden in order.'],['Weeding','Beds, borders and paths cleared of weeds.'],['Hedge trimming','Hedges cut back and shaped.'],['Planting','Help planting new additions to your garden.'],['Garden bed maintenance','Beds tidied, edged and refreshed.'],['General garden tidy-ups','A one-off reset for a neglected space.'],['Seasonal maintenance','Work timed to what the garden needs through the year.']],
+ noteT:'Related services',noteB:'Lawn mowing and green waste removal can be booked with your gardening so everything is done in one visit. Mention them in your quote request.',
+ pricing:'Garden pricing depends on garden size, the work required and how often you want us to visit.',
+ faq:[['Can you do regular visits?','Yes. Choose a maintenance frequency in the quote request, or tell us you are not sure and we will suggest something sensible.'],['Will you remove the garden waste?','Green waste removal is available. Tick it in your request.']],
+ related:['lawn-mowing','green-waste-removal'],
+ fields:[
+  {n:'gsize',l:'Garden size',t:'select',o:['Small','Medium','Large','Not sure']},
+  {n:'work',l:'Work required',t:'checks',o:['Weeding','Hedge trimming','Planting','Garden bed maintenance','General tidy-up','Seasonal maintenance','Lawn mowing','Green waste removal'],full:1},
+  {n:'freq',l:'Maintenance frequency',t:'select',o:['One-off','Weekly','Fortnightly','Monthly','Seasonal','Not sure']}]},
+{slug:'green-waste-removal',name:'Green Waste Removal',theme:'t-waste',tone:'dark',icon:'leaf',scene:'waste',
+ short:'Clippings, branches and garden cuttings taken away.',
+ head:'Your Garden Tidy. Our Job to Clear.',
+ intro:'Piles of cuttings, hedge trimmings or a whole garden clean-up: we take the green waste away so you are left with a clear, tidy space.',
+ meta:'Green waste removal from Kingssons, a family-owned New Zealand business. Grass clippings, branches, hedge trimmings and garden clean-up waste. Request a quote.',
+ offers:[['Grass clippings','Bagged or loose clippings collected.'],['Leaves and branches','Fallen leaves and branches cleared away.'],['Hedge trimmings','Trimmings from hedge cutting taken off site.'],['Garden cuttings','Prunings and cuttings removed.'],['General green waste collection','Mixed garden waste collected from your property.'],['Garden clean-up waste','Waste from a bigger garden clean-up.']],
+ noteT:'Before you book',noteB:'Quotes are based on the type and amount of green waste, and on access to it. Tell us if it is already in piles or bags. Items that are not green waste need to be discussed before collection.',
+ pricing:'Pricing depends on the type and amount of material and how easy it is to reach.',
+ faq:[['Does the waste need to be bagged?','Not necessarily. Tell us whether it is loose piles or bags and we will quote for how it is presented.']],
+ related:['gardening','lawn-mowing'],
+ fields:[
+  {n:'wtype',l:'Type of waste',t:'checks',o:['Grass clippings','Leaves','Branches','Hedge trimmings','Garden cuttings','Mixed'],full:1},
+  {n:'vol',l:'Approximate volume',t:'text',h:'e.g. 6 bags, a small pile, a trailer load'},
+  {n:'collected',l:'Has it been collected yet?',t:'select',o:['Already in piles','Already in bags','Not yet collected','Not sure']},
+  {n:'access',l:'Access to the waste',t:'text',h:'e.g. driveway, steep path, locked gate'}]},
+{slug:'rubbish-removal',name:'Rubbish Removal',theme:'t-rubbish',tone:'dark',icon:'trash',scene:'rubbish',
+ short:'Household rubbish, garage clear-outs and property clean-outs.',
+ head:'Clear the Clutter. Reclaim Your Space.',
+ intro:'We remove unwanted household items and general rubbish so you get your space back. Tell us what needs to go and where it is.',
+ meta:'Rubbish removal from Kingssons, a family-owned New Zealand business. Household rubbish, garage clear-outs and property clean-outs. Request a quote.',
+ offers:[['Household rubbish removal','General household rubbish taken away.'],['Garage clear-outs','Garages and sheds cleared out.'],['Unwanted-item removal','General items you no longer need.'],['Property clean-outs','Larger clear-outs of a property.'],['Bulky item removal','Bulky items, where accepted. Check with us first.'],['Other non-hazardous waste','Other suitable non-hazardous waste. Ask us.']],
+ noteT:'Hazardous and restricted materials',noteB:'Hazardous, restricted or otherwise excluded materials must be discussed before collection. If you are not sure whether something is acceptable, ask us when you request your quote.',
+ pricing:'Pricing is based on the amount and type of material, and how easy it is to access.',
+ faq:[['What can you not take?','Hazardous, restricted or excluded materials need to be discussed before collection. Mention anything unusual in your request.'],['How do you price a clear-out?','We base it on the amount, type of material and access. Photos make quoting quicker.']],
+ related:['green-waste-removal','end-of-tenancy-cleaning'],
+ fields:[
+  {n:'what',l:'What needs removing?',t:'textarea',req:1,full:1},
+  {n:'qty',l:'Approximate quantity',t:'text',h:'e.g. a trailer load, 10 bags, a few large items'},
+  {n:'access',l:'Access conditions',t:'text',h:'e.g. ground floor, stairs, long carry'}]},
+{slug:'end-of-tenancy-cleaning',name:'End-of-Tenancy Cleaning',theme:'t-tenancy',tone:'light',icon:'sparkle',scene:'tenancy',
+ short:'Kitchens, bathrooms and living areas cleaned for move-out.',
+ head:'Leave the Cleaning to Us.',
+ intro:'Moving out is busy enough. Kingssons cleans the property room by room, based on the checklist we agree with you.',
+ meta:'End-of-tenancy cleaning from Kingssons, a family-owned New Zealand business. Kitchens, bathrooms, bedrooms and living areas. Request a quote.',
+ offers:[['Full-property cleaning','The whole property in one booking.'],['Kitchen cleaning','Benches, cupboards, oven, rangehood and sink areas.'],['Bathroom cleaning','Showers, baths, basins, toilets and tiled surfaces.'],['Bedroom and living areas','Rooms cleaned through, including floors.'],['Interior surface cleaning','Interior surfaces wiped and cleaned.'],['Other agreed tasks','Anything extra we agree with you in advance.']],
+ noteT:'What is included',noteB:'We clean the areas you select and agree with us in the quote. Ask about extra tasks if you need them. We do not promise bond refunds or particular inspection outcomes, because those decisions are not ours to make.',
+ pricing:'Pricing depends on property size, number of bedrooms and bathrooms, and condition.',
+ faq:[['Will I get my bond back?','We cannot promise a bond refund or a particular inspection result. We clean thoroughly to the agreed checklist.'],['Can I add extra tasks?','Yes. Describe them in the notes or ask when we reply to your request.']],
+ related:['rubbish-removal','water-blasting'],
+ fields:[
+  {n:'ptype',l:'Property type',t:'select',o:['Apartment / unit','Townhouse','House','Other']},
+  {n:'beds',l:'Bedrooms',t:'select',o:['Studio','1','2','3','4','5+']},
+  {n:'baths',l:'Bathrooms',t:'select',o:['1','2','3','4+']},
+  {n:'psize',l:'Approximate size (m²)',t:'text'},
+  {n:'cond',l:'Current condition',t:'select',o:['Fairly clean','Needs a good clean','Heavily soiled','Not sure']},
+  {n:'areas',l:'Optional checklist: areas to clean',t:'checks',o:['Kitchen','Bathrooms','Bedrooms','Living areas','Laundry','Interior windows','Floors','Other (describe below)'],full:1}]},
+{slug:'water-blasting',name:'Water Blasting',theme:'t-water',tone:'dark',icon:'droplet',scene:'water',
+ short:'Driveways, patios, paths and fences blasted clean.',
+ head:'Blast Away the Grime.',
+ intro:'Built-up dirt, moss and staining on hard outdoor surfaces can transform with a proper blast. Describe the surface and the area and we will quote the job.',
+ meta:'Water blasting from Kingssons, a family-owned New Zealand business. Driveways, concrete, patios, fences and exterior surfaces. Request a quote.',
+ offers:[['Driveway cleaning','Driveways cleaned back to bare surface.'],['Concrete and pavement','Paths, pavers and concrete cleaned.'],['Patios and outdoor areas','Outdoor living areas refreshed.'],['Fence cleaning','Fences cleaned of grime and growth.'],['Exterior surface cleaning','Other exterior surfaces around the property.'],['Other pressure-washing','Ask about other suitable surfaces.']],
+ noteT:'Tell us about the surface',noteB:'Different surfaces need different care. The more we know about the material, the area and the level of staining, the better we can quote and plan the job.',
+ pricing:'Pricing depends on the surface, the area to be cleaned and how heavily it is stained.',
+ faq:[['Will it damage my surface?','Different materials need different approaches. Tell us what the surface is when you request a quote and we will advise before starting.'],['Can you do before-and-after photos?','Where you are happy for us to, we can share results. Real Kingssons photos will appear in the gallery as they are added.']],
+ related:['gardening','car-detailing'],
+ fields:[
+  {n:'surface',l:'Surface to clean',t:'select',o:['Driveway','Concrete / pavement','Patio / outdoor area','Fence','Other exterior surface']},
+  {n:'area',l:'Approximate area',t:'text',h:'e.g. 40 m², two-car driveway'},
+  {n:'clean',l:'Cleaning required',t:'textarea',h:'Staining, moss, oil marks, how long since last cleaned…',full:1}]},
+{slug:'other-services',name:'Other Property Services',theme:'t-neutral',tone:'dark',icon:'plus',scene:'other',
+ short:'Got a job that does not fit the list? Ask us.',
+ head:'Something Else Around the Property?',
+ intro:'Kingssons is one business for many property needs. If your job is not listed, describe it and we will tell you whether we can help.',
+ meta:'Ask Kingssons about other property maintenance jobs around your home or business in New Zealand. Request a quote.',
+ offers:[['General property clean-ups','Describe what needs doing and we will advise.'],['Exterior cleaning','Ask us about exterior jobs that are not listed.'],['Something different','If it is related to looking after a property, ask.']],
+ noteT:'New services',noteB:'We add services over time. Anything not listed on the site has to be confirmed with us first. Ask and we will give you a straight answer.',
+ pricing:'Every job in this category is quoted individually.',
+ faq:[],related:['gardening','rubbish-removal'],
+ fields:[{n:'job',l:'What do you need done?',t:'textarea',req:1,full:1}]}
+];
+const SBY=Object.fromEntries(SERVICES.map(s=>[s.slug,s]));
+const CYCLE=['water-blasting','gardening','car-detailing','rubbish-removal','lawn-mowing','end-of-tenancy-cleaning','green-waste-removal'];
+
+/* ---------- Illustrative placeholder scenes (replace with real photography) ---------- */
+let uid=0;
+function rnd(seed){let s=seed;return()=>(s=(s*16807)%2147483647)/2147483647}
+function scene(k){
+ const r=rnd(k.length*131+9),id='g'+(++uid);let g='';
+ if(k==='water'){let j='',d='';
+  for(let i=0;i<9;i++)j+=`<path d="M720 -30 Q ${430+i*26} 180 ${250+i*34} 430" stroke="var(--a-lit)" stroke-width="${2+i%3}" fill="none" opacity="${.22+(i%4)*.12}"/>`;
+  for(let i=0;i<46;i++)d+=`<circle cx="${180+r()*460}" cy="${330+r()*220}" r="${1+r()*3}" fill="var(--a-lit)" opacity="${.2+r()*.5}"/>`;
+  g=`<defs><linearGradient id="${id}" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#04060b"/><stop offset="1" stop-color="#0a1a42"/></linearGradient></defs><rect width="800" height="680" fill="url(#${id})"/><polygon points="0,430 800,430 800,680 0,680" fill="#25282d"/><polygon points="360,430 800,430 800,680 220,680" fill="#8d939b"/><g stroke="#000" stroke-opacity=".35" stroke-width="3"><path d="M0 520H800M0 600H800M200 430L100 680M420 430L380 680M640 430L660 680"/></g>${j}${d}`;}
+ else if(k==='garden'){let h='';
+  [[40,330,200,230],[250,290,170,270],[440,340,160,220],[610,300,170,260]].forEach((b,i)=>h+=`<rect x="${b[0]}" y="${b[1]}" width="${b[2]}" height="${b[3]}" rx="40" fill="${['#1f6e35','#2fa84f','#195c2b','#3fbf61'][i]}"/>`);
+  for(let i=0;i<26;i++)h+=`<circle cx="${r()*800}" cy="${520+r()*140}" r="${6+r()*14}" fill="${i%5?'#0f3d1c':'var(--a-lit)'}" opacity=".85"/>`;
+  g=`<rect width="800" height="680" fill="#050806"/><circle cx="640" cy="140" r="120" fill="var(--a)" opacity=".25"/>${h}<rect y="590" width="800" height="90" fill="#0c140e"/>`;}
+ else if(k==='lawn'){let s='';
+  for(let i=0;i<10;i++)s+=`<polygon points="${400+(i-5)*20},330 ${400+(i-4)*20},330 ${(i-4)*160+400},680 ${(i-5)*160+400},680" fill="${i%2?'#6fb91f':'#8bd22f'}"/>`;
+  g=`<rect width="800" height="680" fill="#071006"/><rect y="0" width="800" height="330" fill="#0a1a0a"/><circle cx="560" cy="150" r="70" fill="var(--a-lit)" opacity=".35"/><rect y="300" width="800" height="30" fill="#14301a"/>${s}<rect x="330" y="470" width="150" height="50" rx="10" fill="#111"/><circle cx="360" cy="535" r="22" fill="#000" stroke="#444" stroke-width="4"/><circle cx="455" cy="535" r="22" fill="#000" stroke="#444" stroke-width="4"/>`;}
+ else if(k==='car'){
+  const car=`<path d="M110 440C130 380 210 350 300 345L390 295C440 270 540 270 590 300L660 345C720 355 740 385 740 440Z" fill="url(#${id})"/><path d="M330 340L400 300C440 285 520 285 560 305L610 340Z" fill="#2b2f35"/><path d="M140 420C200 385 330 372 460 375" stroke="#fff" stroke-opacity=".4" stroke-width="3" fill="none"/><circle cx="240" cy="440" r="52" fill="#050505" stroke="#333" stroke-width="5"/><circle cx="240" cy="440" r="26" fill="none" stroke="var(--a-lit)" stroke-width="5"/><circle cx="610" cy="440" r="52" fill="#050505" stroke="#333" stroke-width="5"/><circle cx="610" cy="440" r="26" fill="none" stroke="var(--a-lit)" stroke-width="5"/>`;
+  g=`<defs><linearGradient id="${id}" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2a2d33"/><stop offset="1" stop-color="#050505"/></linearGradient></defs><rect width="800" height="680" fill="#070708"/><ellipse cx="420" cy="500" rx="360" ry="40" fill="var(--a)" opacity=".28"/>${car}<g transform="translate(0 980) scale(1 -1)" opacity=".13">${car}</g>`;}
+ else if(k==='tenancy'){
+  g=`<rect width="800" height="680" fill="#eef1f2"/><rect x="90" y="70" width="260" height="300" fill="#cfe9ee" stroke="#fff" stroke-width="12"/><path d="M220 70V370M90 220H350" stroke="#fff" stroke-width="8"/><polygon points="0,470 800,470 800,680 0,680" fill="#d9dde0"/><g stroke="#fff" stroke-width="4"><path d="M0 540H800M0 610H800M260 470L120 680M520 470L540 680"/></g><rect x="440" y="300" width="280" height="150" rx="6" fill="#fff"/><rect x="440" y="300" width="280" height="22" fill="var(--a)"/><circle cx="520" cy="372" r="28" fill="#dde2e5"/><path d="M640 120l14 40 40 14-40 14-14 40-14-40-40-14 40-14z" fill="var(--a)"/><path d="M590 210l6 16 16 6-16 6-6 16-6-16-16-6 16-6z" fill="var(--a-lit)"/>`;}
+ else if(k==='rubbish'){let b='';
+  for(let i=0;i<7;i++)b+=`<circle cx="${190+i*70+r()*20}" cy="${300+r()*50}" r="${42+r()*14}" fill="#1b1b1b" stroke="#333" stroke-width="3"/>`;
+  g=`<rect width="800" height="680" fill="#0c0c0c"/><rect x="0" y="560" width="800" height="120" fill="#161616"/><rect x="120" y="260" width="560" height="260" fill="#1d1d1d" stroke="#3a3a3a" stroke-width="6"/>${b}<g fill="#2a2a2a"><rect x="190" y="330" width="120" height="80"/><rect x="480" y="320" width="150" height="100"/></g><g stroke="#3a3a3a" stroke-width="6"><path d="M180 260V520M260 260V520M340 260V520M420 260V520M500 260V520M580 260V520M660 260V520"/></g><rect x="100" y="520" width="600" height="22" fill="var(--a)"/><circle cx="260" cy="560" r="34" fill="#000" stroke="#555" stroke-width="6"/><circle cx="560" cy="560" r="34" fill="#000" stroke="#555" stroke-width="6"/>`;}
+ else if(k==='waste'){let l='';
+  for(let i=0;i<34;i++){const x=120+r()*560,y=300+r()*230;l+=`<ellipse cx="${x}" cy="${y}" rx="${30+r()*28}" ry="${12+r()*10}" transform="rotate(${r()*180} ${x} ${y})" fill="${['#1f6b41','#2e8b57','#5cc48a','#154a2d'][i%4]}"/>`;}
+  g=`<rect width="800" height="680" fill="#060b08"/><circle cx="600" cy="140" r="130" fill="var(--a)" opacity=".22"/><path d="M0 560Q400 430 800 560V680H0Z" fill="#0d1a12"/><path d="M200 520L480 280M300 540L620 330M150 500L380 330" stroke="#5a4630" stroke-width="10" stroke-linecap="round"/>${l}`;}
+ else{let t='';
+  for(let i=0;i<9;i++)t+=`<rect x="${130+(i%3)*190}" y="${130+Math.floor(i/3)*160}" width="160" height="130" rx="22" fill="#15171a" stroke="${i===4?'var(--a-lit)':'#2b2e33'}" stroke-width="4"/>`;
+  g=`<rect width="800" height="680" fill="#08090a"/>${t}<path d="M400 355V395M380 375H420" stroke="var(--a-lit)" stroke-width="8" stroke-linecap="round"/>`;}
+ return `<svg viewBox="0 0 800 680" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Illustrative placeholder image for ${esc(k)}">${g}</svg>`;
+}
+
+/* ---------- Components ---------- */
+const wm=(cls='')=>`<span class="wm ${cls}" aria-label="Kingssons"><b>KINGS</b><i>SONS</i></span>`;
+const href=p=>'#'+p;
+const phoneLink=()=>CONFIG.phone?`<a href="tel:${esc(CONFIG.phone.replace(/[^\d+]/g,''))}">${esc(CONFIG.phone)}</a>`:'';
+const mailLink=()=>CONFIG.email?`<a href="mailto:${esc(CONFIG.email)}">${esc(CONFIG.email)}</a>`:'';
+
+function header(route,tone){
+ const cur=(p)=>route===p||(p!=='/'&&route.startsWith(p+'/'))?' aria-current="page"':'';
+ const dd=SERVICES.map(s=>`<a class="${s.theme}" href="${href('/services/'+s.slug)}"><span class="dot"></span>${esc(s.name)}</a>`).join('');
+ document.getElementById('hdr').className='hdr on-'+tone;
+ document.getElementById('hdr').innerHTML=`<div class="wrap"><a href="#/" class="wm" style="font-size:1.65rem" aria-label="Kingssons home"><b>KINGS</b><i>SONS</i></a>
+ <nav class="nav" aria-label="Main">
+  <a href="#/"${cur('/')}>Home</a>
+  <div class="ddw"><button class="nl" id="ddb" aria-expanded="false" aria-controls="dd">Our Services ▾</button><div class="dd" id="dd" hidden>${dd}</div></div>
+  <a href="#/about"${cur('/about')}>About Us</a><a href="#/gallery"${cur('/gallery')}>Gallery</a><a href="#/service-areas"${cur('/service-areas')}>Service Areas</a><a href="#/faqs"${cur('/faqs')}>FAQs</a><a href="#/contact"${cur('/contact')}>Contact</a>
+ </nav><a class="btn sm quote-btn" href="#/quote">Get a Quote</a>
+ <button class="burger" id="burger" aria-label="Open menu" aria-controls="drawer" aria-expanded="false"><svg width="24" height="24" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button></div>`;
+ document.getElementById('drawer').innerHTML=`<div class="top"><span class="wm" style="font-size:1.6rem"><b style="color:#fff">KINGS</b><i style="color:var(--a-lit)">SONS</i></span><button class="burger" style="display:grid" id="dclose" aria-label="Close menu"><svg width="24" height="24" viewBox="0 0 24 24" stroke="#fff" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div>
+ <a class="dl" href="#/">Home</a><a class="dl" href="#/services">Our Services</a>${SERVICES.map(s=>`<a class="dl s ${s.theme}" href="${href('/services/'+s.slug)}"><span class="dot"></span>${esc(s.name)}</a>`).join('')}
+ <a class="dl" href="#/about">About Us</a><a class="dl" href="#/gallery">Gallery</a><a class="dl" href="#/service-areas">Service Areas</a><a class="dl" href="#/faqs">FAQs</a><a class="dl" href="#/contact">Contact</a>
+ <a class="btn" href="#/quote">Get a Free Quote</a>`;
+}
+function footer(){
+ const soc=Object.entries(CONFIG.social).filter(([,v])=>v).map(([k,v])=>`<li><a href="${esc(v)}" rel="noopener" target="_blank">${esc(k[0].toUpperCase()+k.slice(1))}</a></li>`).join('');
+ document.getElementById('ftr').innerHTML=`<div class="wrap"><div class="cols">
+ <div>${wm()}<p>A family-owned property services business in New Zealand, helping customers look after their vehicles, homes, gardens and properties.</p></div>
+ <div><h3>Services</h3><ul>${SERVICES.map(s=>`<li><a href="${href('/services/'+s.slug)}">${esc(s.name)}</a></li>`).join('')}</ul></div>
+ <div><h3>Kingssons</h3><ul><li><a href="#/">Home</a></li><li><a href="#/about">About Us</a></li><li><a href="#/gallery">Gallery</a></li><li><a href="#/service-areas">Service Areas</a></li><li><a href="#/faqs">FAQs</a></li><li><a href="#/contact">Contact</a></li><li><a href="#/quote">Get a Quote</a></li></ul></div>
+ <div><h3>Contact</h3><ul>${CONFIG.phone?`<li>${phoneLink()}</li>`:''}${CONFIG.email?`<li>${mailLink()}</li>`:''}${CONFIG.hours?`<li>${esc(CONFIG.hours)}</li>`:''}<li>${CONFIG.areas.length?esc(CONFIG.areas.join(', ')):'Tell us your suburb when you request a quote.'}</li>${soc}${CONFIG.phone||CONFIG.email?'':'<li><a href="#/quote">Send us a quote request</a></li>'}</ul></div></div>
+ <div class="legal"><span>© ${new Date().getFullYear()} Kingssons. All rights reserved.${CONFIG.registration?' '+esc(CONFIG.registration):''}</span><span><a href="#/privacy">Privacy Policy</a> &nbsp; <a href="#/terms">Terms and Conditions</a></span></div></div>`;
+}
+const qBtn=(slug,label='Get a Free Quote',cls='')=>`<a class="btn ${cls}" href="#/quote${slug?'/'+slug:''}">${label}</a>`;
+
+function ba(kind,note=true){
+ return `<div class="ba" role="group" aria-label="Before and after comparison"><div class="l b">${scene(kind)}</div><div class="l af">${scene(kind)}</div><span class="tag b">Before</span><span class="tag a">After</span><input type="range" min="0" max="100" value="50" aria-label="Drag to compare before and after"><div class="hd"></div>${note?'<span class="ph">Placeholder, replace with a real job photo</span>':''}</div>`;
+}
+function faqBlock(items){return items.map(([q,a])=>`<details><summary>${esc(q)}</summary><p>${esc(a)}</p></details>`).join('')}
+function pricingBlock(s){
+ const p=CONFIG.pricing[s.slug];
+ if(p&&p.length)return `<div class="panel"><h3>Pricing</h3><ul style="margin:0;padding-left:1.1em">${p.map(x=>`<li><b>${esc(x.name)}</b>: ${x.type==='fixed'?esc(x.price):x.type==='from'?'from '+esc(x.price):'Custom quote'}${x.note?' <span class="muted">('+esc(x.note)+')</span>':''}</li>`).join('')}</ul><p class="small" style="margin-top:12px">Final price depends on the size and condition of the job.</p></div>`;
+ return `<div class="panel"><h3>Pricing</h3><p>${esc(s.pricing)}</p><p style="margin:0"><b>Request a quote</b> and we will come back to you with a price.</p></div>`;
+}
+
+/* ---------- Quote form ---------- */
+function fieldHTML(f,p='f'){
+ const id=p+'_'+f.n,req=f.req?' <span aria-hidden="true">*</span>':'',rq=f.req?' required aria-required="true"':'',hint=f.h&&f.t!=='checks'?`<div class="hint" id="${id}_h">${esc(f.h)}</div>`:'',d=f.h&&f.t!=='checks'?` aria-describedby="${id}_h"`:'';
+ let inner;
+ if(f.t==='select')inner=`<label for="${id}">${esc(f.l)}${req}</label><select id="${id}" name="${f.n}"${rq}><option value="">Select…</option>${f.o.map(o=>`<option>${esc(o)}</option>`).join('')}</select>`;
+ else if(f.t==='textarea')inner=`<label for="${id}">${esc(f.l)}${req}</label>${hint}<textarea id="${id}" name="${f.n}"${rq}${d}></textarea>`;
+ else if(f.t==='checks')inner=`<fieldset><legend>${esc(f.l)}</legend><div class="checks">${f.o.map(o=>`<label><input type="checkbox" name="${f.n}" value="${esc(o)}">${esc(o)}</label>`).join('')}</div></fieldset>`;
+ else inner=`<label for="${id}">${esc(f.l)}${req}</label>${hint}<input id="${id}" name="${f.n}" type="${f.t||'text'}"${rq}${d}>`;
+ return `<div class="fld${f.full?' full':''}" data-f="${f.n}">${inner}<div class="err" id="${id}_e" role="alert"></div></div>`;
+}
+function svcFields(slug){const s=SBY[slug];return s?s.fields.map(f=>fieldHTML(f)).join(''):''}
+function quoteForm(slug,mode='quote'){
+ const gen=mode==='contact';
+ return `<form class="formbox" id="qf" novalidate data-mode="${mode}" aria-labelledby="qft">
+ <h2 id="qft">${gen?'Send us a message':'Request a free quote'}</h2>
+ <p class="small" style="color:#4b5057">Fields marked * are required.</p>
+ <div class="grid2">
+ ${gen?'':`<div class="fld full" data-f="service"><label for="f_service">Service needed <span aria-hidden="true">*</span></label><select id="f_service" name="service" required aria-required="true"><option value="">Select a service…</option>${SERVICES.map(s=>`<option value="${s.slug}"${s.slug===slug?' selected':''}>${esc(s.name)}</option>`).join('')}</select><div class="err" id="f_service_e" role="alert"></div></div>`}
+ ${fieldHTML({n:'name',l:'Your name',t:'text',req:1})}${fieldHTML({n:'email',l:'Email address',t:'email',req:1})}
+ ${fieldHTML({n:'phone',l:'Phone number',t:'tel',req:!gen})}${fieldHTML({n:'location',l:'Property address or suburb',t:'text',req:!gen})}
+ <div class="full" style="grid-column:1/-1;display:contents" id="svcFields">${gen?'':svcFields(slug)}</div>
+ ${fieldHTML({n:'desc',l:gen?'Your message':'Describe the job',t:'textarea',req:1,full:1,h:gen?'':'Anything that helps us quote accurately.'})}
+ ${gen?'':fieldHTML({n:'when',l:'Preferred date or timeframe',t:'text',full:1,h:'e.g. this Saturday, within two weeks, flexible'})}
+ </div>
+ ${gen?'':'<p class="small" style="color:#4b5057">Photos help us quote accurately. Attach them to the email that opens when you send your request, or reply with them once we get back to you.</p>'}
+ <div class="hp" aria-hidden="true"><label>Leave this field empty<input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+ <div class="fld" data-f="consent"><div class="checks"><label><input type="checkbox" id="f_consent" name="consent" required aria-required="true">I agree to Kingssons using these details to reply to my enquiry. <a href="#/privacy" style="color:var(--a-deep)">Privacy Policy</a></label></div><div class="err" id="f_consent_e" role="alert"></div></div>
+ <button class="btn" type="submit" style="width:100%">${gen?'Send message':'Send quote request'}</button>
+ <div id="qstatus" aria-live="polite"></div></form>`;
+}
+
+/* ---------- Pages ---------- */
+function serviceCard(s,span){
+ return `<article class="card ${s.theme} ${span==='span12'?'wide':''} ${span}">${scene(s.scene).replace('<svg ','<svg class="bg" ')}<span class="ic">${icon(s.icon)}</span><h3>${esc(s.name)}</h3><p>${esc(s.short)}</p><div class="links"><a href="${href('/services/'+s.slug)}">Learn more<span class="sr" style="position:absolute;left:-9999px"> about ${esc(s.name)}</span></a><a href="#/quote/${s.slug}">Get a quote</a></div><span class="ph" style="top:12px;bottom:auto;left:auto;right:12px">Placeholder image</span></article>`;
+}
+function pgHome(){
+ const spans=['span7','span5','span4','span4','span4','span6','span6','span12'];
+ return `<section class="hero on-dark" id="hero"><div class="wrap"><div>
+ <div class="mega wm" aria-hidden="true"><b>KINGS</b><i>SONS</i></div>
+ <h1>Your Property. Our Pride.</h1>
+ <p class="lead">Kingssons is a family-owned property services business in New Zealand. Reliable maintenance, cleaning, outdoor care and detailing, all from one team.</p>
+ <div class="row">${qBtn('','Get a Free Quote')}<a class="btn ghost" href="#/services">Explore Our Services</a></div>
+ <div class="cyc"><span id="cycl" aria-hidden="true">Water Blasting</span><button id="cycb" type="button" aria-pressed="false">Pause colour change</button></div></div>
+ <div class="art" role="img" aria-label="Illustrations of Kingssons service divisions: placeholder artwork until real photos are added">${CYCLE.map((k,i)=>`<div class="layer${i?'':' on'}" data-k="${k}">${scene(SBY[k].scene)}</div>`).join('')}<span class="ph">Placeholder artwork</span></div></div></section>
+ <section class="sec on-dark" aria-labelledby="svh"><div class="wrap"><h2 id="svh">One business. Every job around the property.</h2><p class="lead" style="margin-bottom:40px">Pick a service to see how it works and ask for a quote.</p>
+ <div class="bento">${SERVICES.map((s,i)=>serviceCard(s,spans[i])).join('')}</div></div></section>
+ <section class="sec on-light"><div class="wrap split"><div><h2>A family business that takes pride in the work.</h2><p class="lead">Kingssons is family-owned and operated. We help customers look after their vehicles, homes, gardens and properties, with honest, straightforward service.</p>${qBtn('','Request a quote')}</div>
+ <div class="values"><div><h3>Family-owned</h3><p>Real people who care how the job turns out.</p></div><div><h3>One call for many jobs</h3><p>Lawns, gardens, cleaning, removals and detailing, handled by one business.</p></div><div><h3>Straightforward quotes</h3><p>Tell us about the job and we will come back with a clear price.</p></div><div><h3>Pride in every job</h3><p>We want you to look at the result and be happy.</p></div></div></div></section>
+ <section class="sec char on-dark t-water"><div class="wrap"><div class="split" style="align-items:center"><div><h2>See the difference.</h2><p class="lead">Drag the slider to compare before and after. This example is placeholder artwork; real Kingssons job photos will replace it.</p><a class="btn ghost" href="#/gallery">Visit the gallery</a></div>${ba('water')}</div></div></section>
+ <section class="sec on-light"><div class="wrap"><h2>Three steps to a finished job.</h2><ol class="steps"><li><h3>Request a quote</h3><p>Tell us what you need, where you are, and attach photos by email if you can.</p></li><li><h3>Confirm the job</h3><p>We reply with a quote. If you are happy, we agree a time.</p></li><li><h3>Get it done</h3><p>We turn up and do the work.</p></li></ol></div></section>
+ <section class="sec white on-light"><div class="wrap split"><div><h2>Where we work</h2><p class="lead">${CONFIG.areas.length?'We currently work in '+esc(CONFIG.areas.join(', '))+'.':'Tell us your suburb when you request a quote and we will confirm we can reach you.'}</p><a class="btn" href="#/service-areas">Service areas</a></div><div><h2 style="font-size:1.6rem">Common questions</h2>${faqBlock(COMMON_FAQ.slice(0,3))}<p style="margin-top:16px"><a href="#/faqs">See all FAQs</a></p></div></div></section>
+ <section class="sec on-dark" style="text-align:center"><div class="wrap"><h2 style="max-width:16ch;margin-inline:auto">Ready when you are.</h2><p class="lead" style="margin-inline:auto">Send us the details and we will get back to you with a quote.</p>${qBtn('','Get a Free Quote')}</div></section>`;
+}
+function pgServices(){
+ return `<section class="subhero on-dark"><div class="wrap"><h1>Our Services</h1><p class="lead">Seven specialist services, one family-owned business. Each has its own page, its own look and its own quote form.</p></div></section>
+ <section class="sec on-dark" style="padding-top:0"><div class="wrap"><div class="bento">${SERVICES.map((s,i)=>serviceCard(s,['span6','span6','span6','span6','span6','span6','span6','span6'][i])).join('')}</div></div></section>`;
+}
+function pgService(s){
+ const rel=s.related.map(r=>SBY[r]);
+ const light=s.tone==='light';
+ return `<section class="hero on-${light?'light':'dark'}"><div class="wrap"><div><h1>${esc(s.head)}</h1><p class="lead">${esc(s.intro)}</p><div class="row">${qBtn(s.slug,'Get a Free Quote')}<a class="btn ghost" href="#offers">What we do</a></div>
+ <ul class="chips" aria-label="Highlights">${s.offers.slice(0,3).map(o=>`<li>${esc(o[0])}</li>`).join('')}</ul></div>
+ <div class="art" role="img" aria-label="Placeholder illustration for ${esc(s.name)}">${scene(s.scene)}<span class="ph">Placeholder image</span></div></div></section>
+ <nav class="switch" aria-label="Kingssons services"><div class="wrap">${SERVICES.map(x=>`<a class="${x.theme}" href="${href('/services/'+x.slug)}"${x.slug===s.slug?' aria-current="page"':''}><span class="dot"></span>${esc(x.name.replace(' & Garden Maintenance','').replace('Other Property Services','Other'))}</a>`).join('')}</div></nav>
+ <section class="sec on-light" id="offers"><div class="wrap"><h2>What we do</h2><ul class="offers">${s.offers.map(o=>`<li><h3>${esc(o[0])}</h3><p>${esc(o[1])}</p></li>`).join('')}</ul></div></section>
+ <section class="sec white on-light"><div class="wrap split"><div class="panel lt"><h3>${esc(s.noteT)}</h3><p style="margin:0">${esc(s.noteB)}</p></div>${pricingBlock(s)}</div></section>
+ ${['water-blasting','lawn-mowing','car-detailing','end-of-tenancy-cleaning'].includes(s.slug)?`<section class="sec on-dark"><div class="wrap split" style="align-items:center"><div><h2>Before and after</h2><p class="lead">Placeholder comparison. Real ${esc(s.name.toLowerCase())} results from Kingssons jobs will appear here.</p></div>${ba(s.scene)}</div></section>`:''}
+ <section class="sec on-dark" id="quote"><div class="wrap split"><div><h2>Request a ${esc(s.name.toLowerCase())} quote</h2><p class="lead">Tell us about the job. We will reply with a price based on the size and condition of the work.</p>${CONFIG.phone?`<p>Prefer to talk? ${phoneLink()}</p>`:''}${s.slug==='rubbish-removal'?'<p class="small">Hazardous, restricted or excluded materials must be discussed before collection.</p>':''}</div>${quoteForm(s.slug)}</div></section>
+ <section class="sec on-light"><div class="wrap split"><div><h2>Related services</h2>${rel.map(r=>`<p><a class="${r.theme}" href="${href('/services/'+r.slug)}" style="font-weight:700"><span class="dot" style="display:inline-block;margin-right:8px"></span>${esc(r.name)}</a><br><span class="muted">${esc(r.short)}</span></p>`).join('')}</div><div><h2 style="font-size:1.6rem">Questions about ${esc(s.name.toLowerCase())}</h2>${faqBlock([...s.faq,...COMMON_FAQ.slice(0,2)])}</div></div></section>`;
+}
+function pgAbout(){
+ return `<section class="subhero on-light"><div class="wrap"><h1>About Kingssons</h1><p class="lead">Kingssons is a family-owned business committed to helping customers look after their vehicles, homes, gardens and properties.</p></div></section>
+ <section class="sec white on-light"><div class="wrap split"><div class="prose"><h2>One business, many jobs</h2><p>Keeping a property in good shape means a long list of jobs: the lawn, the garden, the driveway, the car, the rubbish pile, the move-out clean. Kingssons brings these together so you have one business to call.</p><p>We are family-owned and operated. We aim to be reliable, honest and straightforward, and to take pride in every job.</p>${qBtn('','Request a quote')}</div>
+ <div class="values"><div><h3>Reliable</h3><p>We do what we say we will do.</p></div><div><h3>Honest</h3><p>Clear quotes and straight answers.</p></div><div><h3>Careful</h3><p>Quality workmanship on every job.</p></div><div><h3>Convenient</h3><p>Many property needs, one business.</p></div></div></div></section>`;
+}
+function pgGallery(){
+ const real=CONFIG.gallery;
+ const tiles=real.length?real.map(g=>`<figure data-s="${esc(g.service)}"><img src="${esc(g.src)}" alt="${esc(g.alt||'Kingssons job photo')}" loading="lazy"></figure>`).join(''):SERVICES.slice(0,7).flatMap(s=>[1,2].map(()=>`<figure class="${s.theme}" data-s="${s.slug}">${scene(s.scene)}<figcaption>${esc(s.name)} · placeholder</figcaption></figure>`)).join('');
+ return `<section class="subhero on-light"><div class="wrap"><h1>Gallery</h1><p class="lead">${real.length?'Recent Kingssons work.':'Real Kingssons job photos will appear here. Until then, everything on this page is clearly marked placeholder artwork.'}</p></div></section>
+ <section class="sec white on-light" style="padding-top:24px"><div class="wrap"><h2 style="font-size:1.8rem">Before and after</h2><div class="gal" style="grid-template-columns:repeat(auto-fill,minmax(320px,1fr));margin-bottom:56px">${['water','lawn','car','tenancy'].map(k=>`<div class="t-${k}">${ba(k)}</div>`).join('')}</div>
+ <h2 style="font-size:1.8rem">By service</h2><div class="filters" role="group" aria-label="Filter gallery by service"><button type="button" aria-pressed="true" data-flt="all">All</button>${SERVICES.slice(0,7).map(s=>`<button type="button" aria-pressed="false" data-flt="${s.slug}">${esc(s.name.replace(' & Garden Maintenance',''))}</button>`).join('')}</div><div class="gal" id="gal">${tiles}</div></div></section>`;
+}
+function pgAreas(){
+ return `<section class="subhero on-light"><div class="wrap"><h1>Service Areas</h1><p class="lead">Kingssons works in New Zealand. We only list areas we have confirmed.</p></div></section>
+ <section class="sec white on-light"><div class="wrap split"><div>${CONFIG.areas.length?`<h2>Where we work</h2><ul class="chips" style="margin-top:0">${CONFIG.areas.map(a=>`<li>${esc(a)}</li>`).join('')}</ul>`:`<h2>Not sure we reach you?</h2><p class="lead">Tell us your suburb in your quote request and we will confirm whether we can help.</p>`}${CONFIG.address?`<p>Based in ${esc(CONFIG.address)}.</p>`:''}</div><div>${qBtn('','Get a Free Quote')}<p class="small" style="margin-top:12px">Some services may have different coverage. We will confirm when we reply.</p></div></div></section>`;
+}
+function pgFaqs(){
+ const all=[...COMMON_FAQ,['Can you take hazardous waste?','Hazardous, restricted or excluded materials must be discussed before collection. Mention them in your quote request.'],['Can I book more than one service?','Yes. Describe everything in your request and we will quote the jobs together.'],...SERVICES.flatMap(s=>s.faq)];
+ return `<section class="subhero on-light"><div class="wrap"><h1>Frequently Asked Questions</h1></div></section><section class="sec white on-light" style="padding-top:20px"><div class="wrap prose">${faqBlock(all)}<p style="margin-top:28px">Still have a question? <a href="#/contact">Contact us</a>.</p></div></section>`;
+}
+function pgContact(){
+ const hasC=CONFIG.phone||CONFIG.email||CONFIG.hours;
+ return `<section class="subhero on-light"><div class="wrap"><h1>Contact</h1><p class="lead">Ask a question, or request a quote for a specific job.</p></div></section>
+ <section class="sec white on-light" style="padding-top:20px"><div class="wrap split"><div>${hasC?`<ul class="contact-list">${CONFIG.phone?`<li><b>Phone</b>${phoneLink()}</li>`:''}${CONFIG.email?`<li><b>Email</b>${mailLink()}</li>`:''}${CONFIG.hours?`<li><b>Hours</b>${esc(CONFIG.hours)}</li>`:''}</ul>`:'<p class="lead">Use the form to message us, or request a quote for a specific job.</p>'}${qBtn('','Request a quote')}</div>${quoteForm('general','contact')}</div></section>`;
+}
+function pgQuote(slug){
+ const s=SBY[slug];
+ return `<section class="subhero on-light"><div class="wrap"><h1>Get a Free Quote</h1><p class="lead">Choose a service and tell us about the job. Pricing depends on the size and condition of the work.</p></div></section><section class="sec white on-light" style="padding-top:20px"><div class="wrap"><div style="max-width:760px;margin:0 auto">${quoteForm(s?s.slug:'')}</div></div></section>`;
+}
+function pgLegal(kind){
+ const priv=kind==='privacy';
+ return `<section class="subhero on-light"><div class="wrap"><h1>${priv?'Privacy Policy':'Terms and Conditions'}</h1></div></section><section class="sec white on-light" style="padding-top:20px"><div class="wrap prose"><p class="draft">Draft wording. Have this reviewed and completed with Kingssons' business details before launch.</p>${priv?`
+ <h2>What we collect</h2><p>When you send a quote request or message, we collect the details you give us: your name, email, phone number, property address or suburb, and information about the job.</p>
+ <h2>How we use it</h2><p>We use your details to reply to your enquiry, provide a quote and carry out agreed work. We do not sell your information.</p>
+ <h2>Photos</h2><p>If you email us photos of your property or vehicle, we use them to prepare quotes and plan work.</p>
+ <h2>Cookies and analytics</h2><p>This website does not currently use analytics or advertising cookies. If that changes, this policy will be updated and consent requested where required.</p>
+ <h2>Your rights</h2><p>You can ask to see or correct the personal information we hold about you, or ask us to delete it, by contacting us.</p>`:`
+ <h2>Quotes</h2><p>Quotes are based on the information you provide and may change if the job turns out to differ from the description or photos.</p>
+ <h2>Pricing</h2><p>Pricing depends on the size and condition of the job and is confirmed in your quote.</p>
+ <h2>Excluded materials</h2><p>Hazardous, restricted or otherwise excluded materials must be discussed before any removal work.</p>
+ <h2>Results</h2><p>We take care with every job, but results can depend on the condition of surfaces and property. We do not guarantee bond refunds or the outcome of third-party inspections.</p>
+ <h2>Changes</h2><p>We may update these terms from time to time.</p>`}</div></section>`;
+}
+function pg404(){return `<section class="subhero on-light"><div class="wrap"><h1>Page not found</h1><p class="lead">That page does not exist. <a href="#/">Go to the homepage</a> or <a href="#/services">browse our services</a>.</p></div></section>`}
+
+/* ---------- Router ---------- */
+let cycTimer=null,cycI=0,cycPaused=false,curRoute='/';
+const T=(slug)=>SBY[slug]?SBY[slug].theme:'t-neutral';
+function setTheme(t){document.documentElement.className=t}
+function render(){
+ const raw=(location.hash.slice(1)||'/').split('?')[0].replace(/\/+$/,'')||'/';
+ const p=raw.split('/').filter(Boolean);curRoute=raw;
+ let view,theme='t-neutral',tone='light',title='Kingssons',desc=document.querySelector('meta[name=description]').content;
+ const main=document.getElementById('main');
+ clearInterval(cycTimer);
+ if(raw==='/'){view=pgHome();theme='t-water';tone='dark';title='Kingssons | Family-owned property services in New Zealand';desc='Kingssons is a family-owned property services business in New Zealand: car detailing, lawn mowing, gardening, green waste and rubbish removal, end-of-tenancy cleaning and water blasting.';}
+ else if(raw==='/services'){view=pgServices();tone='dark';title='Our Services | Kingssons';desc='Explore every Kingssons service: car detailing, lawn mowing, gardening, green waste removal, rubbish removal, end-of-tenancy cleaning and water blasting.';}
+ else if(p[0]==='services'&&SBY[p[1]]){const s=SBY[p[1]];view=pgService(s);theme=s.theme;tone=s.tone;title=s.name.replace('&','and')+' | Kingssons';desc=s.meta;}
+ else if(raw==='/about'){view=pgAbout();title='About Us | Kingssons';desc='Kingssons is a family-owned business helping customers look after their vehicles, homes, gardens and properties in New Zealand.';}
+ else if(raw==='/gallery'){view=pgGallery();title='Gallery | Kingssons';desc='Kingssons job gallery with before-and-after comparisons.';}
+ else if(raw==='/service-areas'){view=pgAreas();title='Service Areas | Kingssons';desc='Where Kingssons provides property services in New Zealand.';}
+ else if(raw==='/faqs'){view=pgFaqs();title='FAQs | Kingssons';desc='Answers to common questions about Kingssons services, quotes and photos.';}
+ else if(raw==='/contact'){view=pgContact();title='Contact | Kingssons';desc='Contact Kingssons or request a free quote.';}
+ else if(p[0]==='quote'){view=pgQuote(p[1]);theme=T(p[1]);title='Get a Free Quote | Kingssons';desc='Request a free quote from Kingssons for property services in New Zealand.';}
+ else if(raw==='/privacy'){view=pgLegal('privacy');title='Privacy Policy | Kingssons';}
+ else if(raw==='/terms'){view=pgLegal('terms');title='Terms and Conditions | Kingssons';}
+ else{view=pg404();title='Page not found | Kingssons';}
+ setTheme(theme);header(raw,tone);footer();
+ main.innerHTML=view;main.classList.remove('in');void main.offsetWidth;main.classList.add('in');
+ document.title=title;document.querySelector('meta[name=description]').content=desc;
+ ['og:title','og:description'].forEach((k,i)=>{const m=document.querySelector(`meta[property="${k}"]`);if(m)m.content=i?desc:title});
+ closeDrawer();window.scrollTo(0,0);main.focus({preventScroll:true});
+ if(raw==='/')startCycle();
+ const sdiv=p[0]==='services'?SBY[p[1]]:null;
+ if(sdiv&&location.hash.includes('#quote')){}
+}
+function startCycle(){
+ cycI=0;const labels=CYCLE.map(k=>SBY[k].name),layers=[...document.querySelectorAll('.art .layer')],cl=document.getElementById('cycl'),hero=document.getElementById('hero');
+ const reduce=matchMedia('(prefers-reduced-motion:reduce)').matches;
+ const tick=()=>{if(cycPaused||document.hidden||curRoute!=='/')return;cycI=(cycI+1)%CYCLE.length;
+  setTheme(T(CYCLE[cycI]));hero.className='hero on-dark';layers.forEach((l,i)=>l.classList.toggle('on',i===cycI));cl.textContent=labels[cycI]};
+ if(reduce){cycPaused=true;const b=document.getElementById('cycb');b.textContent='Colour change paused';b.setAttribute('aria-pressed','true');b.disabled=true;return}
+ cycTimer=setInterval(tick,2800);
+}
+
+/* ---------- Events ---------- */
+const drawer=document.getElementById('drawer');
+function openDrawer(){drawer.classList.add('open');drawer.removeAttribute('aria-hidden');document.body.style.overflow='hidden';document.getElementById('burger').setAttribute('aria-expanded','true');document.getElementById('dclose').focus()}
+function closeDrawer(){drawer.classList.remove('open');drawer.setAttribute('aria-hidden','true');document.body.style.overflow='';const b=document.getElementById('burger');if(b)b.setAttribute('aria-expanded','false')}
+function closeDD(){const b=document.getElementById('ddb'),d=document.getElementById('dd');if(d&&!d.hidden){d.hidden=true;b.setAttribute('aria-expanded','false')}}
+document.addEventListener('click',e=>{
+ const t=e.target;
+ if(t.closest('#burger'))return openDrawer();
+ if(t.closest('#dclose'))return closeDrawer();
+ if(t.closest('#drawer a'))closeDrawer();
+ const ddb=t.closest('#ddb');
+ if(ddb){const d=document.getElementById('dd');d.hidden=!d.hidden;ddb.setAttribute('aria-expanded',String(!d.hidden));return}
+ if(!t.closest('.ddw'))closeDD(); else if(t.closest('#dd a'))closeDD();
+ if(t.id==='cycb'){cycPaused=!cycPaused;t.setAttribute('aria-pressed',String(cycPaused));t.textContent=cycPaused?'Resume colour change':'Pause colour change'}
+ const f=t.closest('[data-flt]');
+ if(f){document.querySelectorAll('[data-flt]').forEach(b=>b.setAttribute('aria-pressed',String(b===f)));document.querySelectorAll('#gal figure').forEach(fg=>fg.hidden=!(f.dataset.flt==='all'||fg.dataset.s===f.dataset.flt))}
+ if(t.id==='copyq'){navigator.clipboard&&navigator.clipboard.writeText(document.getElementById('qtext').textContent).then(()=>{t.textContent='Copied'}).catch(()=>{})}
+});
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){closeDD();closeDrawer()}});
+document.addEventListener('input',e=>{
+ const t=e.target;
+ if(t.matches('.ba input'))t.closest('.ba').style.setProperty('--p',t.value);
+ const f=t.closest('.fld');if(f&&f.classList.contains('bad')){f.classList.remove('bad');const er=f.querySelector('.err');if(er)er.textContent=''}
+});
+document.addEventListener('change',e=>{
+ if(e.target.id==='f_service'){const slug=e.target.value;document.getElementById('svcFields').innerHTML=svcFields(slug);setTheme(T(slug));
+  if(location.hash.startsWith('#/quote'))history.replaceState(null,'','#/quote'+(slug?'/'+slug:''))}
+});
+document.addEventListener('submit',async e=>{
+ const form=e.target.closest('#qf');if(!form)return;e.preventDefault();
+ const mode=form.dataset.mode,st=document.getElementById('qstatus');st.innerHTML='';
+ form.querySelectorAll('.fld').forEach(f=>{f.classList.remove('bad');const er=f.querySelector('.err');if(er)er.textContent=''});
+ const fd=new FormData(form);
+ if(fd.get('website'))return; // honeypot
+ const bad=[],mark=(n,msg,id)=>{const f=form.querySelector(`[data-f="${n}"]`);if(f){f.classList.add('bad');f.querySelector('.err').textContent=msg}bad.push(id||('f_'+n))};
+ if(mode==='quote'&&!fd.get('service'))mark('service','Select the service you need.');
+ if(!String(fd.get('name')||'').trim())mark('name','Enter your name.');
+ if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(String(fd.get('email')||'').trim()))mark('email','Enter a valid email address, like name@example.com.');
+ if(mode==='quote'&&String(fd.get('phone')||'').replace(/\D/g,'').length<7)mark('phone','Enter a phone number with at least 7 digits.');
+ if(mode==='quote'&&!String(fd.get('location')||'').trim())mark('location','Enter your suburb or property address.');
+ const svc=SBY[fd.get('service')];
+ if(svc)svc.fields.filter(f=>f.req&&!String(fd.get(f.n)||'').trim()).forEach(f=>mark(f.n,'This field is required.'));
+ if(!String(fd.get('desc')||'').trim())mark('desc','Tell us a little about the job.');
+ if(!fd.get('consent'))mark('consent','Please tick to agree before sending.');
+ if(bad.length){st.innerHTML=`<div class="status error" role="alert">Please fix ${bad.length} field${bad.length>1?'s':''} above before sending.</div>`;const el=document.getElementById(bad[0])||form.querySelector('.bad input,.bad select,.bad textarea');el&&el.focus();return}
+ const lines=[mode==='quote'?`Quote request: ${svc?svc.name:'General'}`:'Website message'];
+ const add=(l,v)=>{v=String(v||'').trim();if(v)lines.push(`${l}: ${v}`)};
+ add('Name',fd.get('name'));add('Email',fd.get('email'));add('Phone',fd.get('phone'));add('Location',fd.get('location'));
+ if(svc)svc.fields.forEach(f=>add(f.l,f.t==='checks'?fd.getAll(f.n).join(', '):fd.get(f.n)));
+ add(mode==='quote'?'Job description':'Message',fd.get('desc'));add('Preferred date / timeframe',fd.get('when'));
+ const text=lines.join('\n'),subject=mode==='quote'?`Quote request: ${svc.name}`:'Message from website';
+ const btn=form.querySelector('button[type=submit]');
+ const fallback=(msg)=>`<div class="status" role="status"><b>${msg}</b><pre id="qtext">${esc(text)}</pre><button type="button" class="btn sm" id="copyq">Copy request</button></div>`;
+ if(CONFIG.formEndpoint){
+  btn.disabled=true;btn.textContent='Sending…';
+  try{const r=await fetch(CONFIG.formEndpoint,{method:'POST',headers:{'Content-Type':'application/json',Accept:'application/json'},body:JSON.stringify({subject,message:text,service:svc?svc.name:'General',name:fd.get('name'),email:fd.get('email'),phone:fd.get('phone')})});
+   if(!r.ok)throw new Error(r.status);
+   st.innerHTML=`<div class="status ok" role="status"><b>Request received.</b> Thanks, ${esc(String(fd.get('name')).split(' ')[0])}. We will reply to ${esc(fd.get('email'))}.</div>`;form.reset();
+  }catch(err){st.innerHTML=`<div class="status error" role="alert"><b>Your request has not been sent.</b> Something went wrong sending it.${CONFIG.email?' Try again, or email us directly at '+esc(CONFIG.email)+'.':' Please try again shortly.'}</div>`+fallback('Your details (copy them so you do not lose them):')}
+  btn.disabled=false;btn.textContent=mode==='quote'?'Send quote request':'Send message';return;
+ }
+ if(CONFIG.email){
+  st.innerHTML=fallback('Your email app should now open with this request filled in. Your request has not been sent until you press Send in that email. Attach any photos there.');
+  window.location.href=`mailto:${CONFIG.email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(text)}`;return;
+ }
+ st.innerHTML=`<div class="status error" role="alert"><b>Your request has not been sent.</b> Online quote requests are not switched on for this site yet. You can copy your details below.</div>`+fallback('Your request:');
+});
+addEventListener('hashchange',render);
+document.addEventListener('visibilitychange',()=>{});
+
+/* Structured data (only confirmed details are included) */
+(function(){
+ const d={'@context':'https://schema.org','@type':'LocalBusiness','name':'Kingssons','description':'Family-owned property services business in New Zealand.','address':{'@type':'PostalAddress','addressCountry':'NZ'},
+  'hasOfferCatalog':{'@type':'OfferCatalog','name':'Services','itemListElement':SERVICES.filter(s=>s.slug!=='other-services').map(s=>({'@type':'Offer','itemOffered':{'@type':'Service','name':s.name,'description':s.short}}))}};
+ if(CONFIG.phone)d.telephone=CONFIG.phone;if(CONFIG.email)d.email=CONFIG.email;if(CONFIG.areas.length)d.areaServed=CONFIG.areas;
+ const s=document.createElement('script');s.type='application/ld+json';s.textContent=JSON.stringify(d);document.head.appendChild(s);
+})();
+render();
+</script>
+</body>
+</html>
